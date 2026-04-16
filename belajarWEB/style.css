@@ -1,98 +1,46 @@
-/* Reset dasar */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, sans-serif;
-    background-color: #f5f6fa;
-    color: #333;
-}
-
 /* Container utama */
 #box {
     width: 90%;
     max-width: 1100px;
     margin: 30px auto;
     background: #ffffff;
-    padding: 20px 30px;
+    padding: 30px; /* Diperbesar sedikit agar lebih lega */
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    /* Menaruh semua konten di dalam box ke tengah */
+    text-align: center; 
 }
 
-/* Header */
-h1 {
-    margin-bottom: 15px;
-    color: #2c3e50;
-}
-
-/* Gambar utama */
-img {
-    width: 100%;
+/* Gambar utama (Hero Image) */
+.main-img {
+    display: block;
+    margin: 0 auto 20px auto; /* Margin auto kiri-kanan membuat gambar ke tengah */
+    max-width: 100%;
+    height: auto;
     border-radius: 10px;
-    margin-bottom: 15px;
-}
-
-/* Link lokasi */
-a {
-    color: #3498db;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* Judul menu */
-h2 {
-    margin-top: 30px;
-    margin-bottom: 15px;
-    color: #2c3e50;
 }
 
 /* Tabel */
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 10px;
+    margin: 20px auto; /* Margin auto membuat tabel ke tengah */
+    table-layout: fixed; /* Membuat lebar kolom lebih konsisten */
 }
 
-/* Header tabel */
-th {
-    background-color: #3498db;
-    color: white;
-    padding: 12px;
-    text-align: center;
-}
-
-/* Isi tabel */
-td {
+/* Header & Isi tabel */
+th, td {
     padding: 15px;
-    text-align: center;
+    text-align: center; /* Memastikan teks di dalam sel ada di tengah */
     vertical-align: middle;
     border-bottom: 1px solid #eee;
 }
 
-/* Hover row */
-tr:hover {
-    background-color: #f9f9f9;
-}
-
-/* Gambar menu */
+/* Memastikan gambar di dalam tabel juga rapi */
 td img {
+    display: block;
+    margin: 0 auto;
     width: 120px;
     height: auto;
     border-radius: 8px;
-}
-
-/* Harga */
-td:last-child {
-    font-weight: bold;
-    color: #27ae60;
-}
-
-/* Footer */
-footer, p:last-child {
-    margin-top: 30px;
-    text-align: center;
-    font-size: 14px;
-    color: #888;
 }
