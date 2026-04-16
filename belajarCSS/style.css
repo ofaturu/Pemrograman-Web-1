@@ -11,11 +11,11 @@ height: auto;
 margin: auto;
 }
 #header{
-background-color: orange;
+background-color: #FF7F11;
 padding: 20px;
 }
 #menubar{
-background-color: #e4e4e4;
+background-color: #E2E8CE;
 margin: auto;
 }
 .teksmenu{
@@ -25,6 +25,6 @@ text-decoration: none;
 padding: 20px;
 }
 #footer{
-background-color: #999494;
+background-color: #ACBFA4;
 padding: 20px;
 }
