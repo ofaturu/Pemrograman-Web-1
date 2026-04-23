@@ -1,7 +1,7 @@
 <?php
-    $nim = '20220001';
-    $nama = 'Joni';
-    $alamat = 'Jl. Slamet riyadi No.26';
+    $nim = '1202407003';
+    $nama = 'Muchamad Fatchur Rachman';
+    $alamat = 'Jl. Samudra Pasai No.12';
     $nilai = 90;
     echo "NIM : ", $nim, "<br>";
     echo "Nama : ", $nama, "<br>";
