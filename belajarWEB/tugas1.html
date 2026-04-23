@@ -2,26 +2,44 @@
 <html>
 <head>
     <title>Image & Table</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Ini adalah CSS dasar agar tampilan rapi */
+        body {
+            font-family: Arial, sans-serif; /* Mengganti huruf menjadi Arial */
+            text-align: center; /* Membuat semua konten berada di tengah halaman */
+            background-color: #f9f9f9; /* Memberi warna latar abu-abu sangat muda */
+        }
+
+        table {
+            margin: 0 auto; /* Rumus agar tabel posisinya persis di tengah */
+            border-collapse: collapse; /* Menyatukan garis tabel agar tidak dobel */
+            width: 60%; /* Lebar tabel */
+            background-color: white; /* Tabel berwarna putih */
+        }
+
+        th, td {
+            border: 1px solid #333; /* Memberi garis pinggir pada tabel */
+            padding: 10px; /* Memberi jarak antara teks dan garis tabel */
+        }
+
+        th {
+            background-color: #ffd166; /* Memberi warna kuning pada judul kolom tabel */
+        }
+    </style>
 </head>
 <body>
 
     <h1>Food Court LUNA</h1>
+    <img src="image/foodcourt.jpg" alt="Gambar Foodcourt" width="500">
+    <p>Lokasi: 
+        <a href="https://maps.app.goo.gl/uDCVN7P7K96iYPKA8" target="_blank">
+            Maps Foodcourt LUNA
+        </a>
+    </p>
 
-    <table border="1">
-        <body>
-            <header>
-                <img src="image/foodcourt.jpg" alt="Gambar Foodcourt">
-                <p>Lokasi: 
-                    <a href="https://maps.app.goo.gl/uDCVN7P7K96iYPKA8">
-                        Maps Foodcourt LUNA
-                    </a>
-                </p>
-            </header>
-        </body>
+    <hr> <h2>Daftar Menu Makanan</h2>
 
-        <h2>Daftar Menu Makanan</h2>
-
+    <table>
         <tr>
             <th>Gambar</th>
             <th>Nama Makanan</th>
@@ -29,27 +47,26 @@
         </tr>
 
         <tr>
-            <td><img src="image/nasiayam.jpg" width="145" height="150"></td>
+            <td><img src="image/nasiayam.jpg" width="120" height="120"></td>
             <td>Nasi Ayam Goreng</td>
             <td>Rp25.000</td>
         </tr>
 
         <tr>
-            <td><img src="image/nasigoreng.jpg" width="145" height="150"></td>
+            <td><img src="image/nasigoreng.jpg" width="120" height="120"></td>
             <td>Nasi Goreng</td>
             <td>Rp20.000</td>
         </tr>
 
         <tr>
-            <td><img src="image/miegoreng.jpg" width="145" height="150"></td>
+            <td><img src="image/miegoreng.jpg" width="120" height="120"></td>
             <td>Mie Goreng</td>
             <td>Rp20.000</td>
         </tr>
-
     </table>
 
-    <footer>
-        <p>Copyright 2026 muchamad fatchur rachman. All rights reserved.</p>
+    <br> <footer>
+        <p><i>Copyright 2026 muchamad fatchur rachman. All rights reserved.</i></p>
     </footer>
 
 </body>
