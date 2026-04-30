@@ -72,12 +72,21 @@
                             </ul>
                         </li>
 
-                        <li class="sidebar-title">User &amp; Admin</li>
+                        <li class="sidebar-title">Users &amp; Account</li>
                             <a href="#" class='sidebar-link'>
                                 <i class="bi bi-stack"></i>
                                 <span>Login</span>
                             </a>
 
+                            <a href="#" class='sidebar-link'>
+                                <i class="bi bi-stack"></i>
+                                <span>Register</span>
+                            </a>
+
+                            <a href="#" class='sidebar-link'>
+                                <i class="bi bi-stack"></i>
+                                <span>Profile</span>
+                            </a>
                         <li class="sidebar-item  has-sub">
                         </li>
 
